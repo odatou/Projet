@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="vendeur.css" type="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="//fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i" rel="stylesheet">
+    <title>Vendeur</title>
+</head>
+<body>
+
+    <section class="container-header">
+        <header class="entete">
+                <div class="container-header-line" >
+                    <a href="#"><img class="logoApp" src="1241707.png" alt="logos app"></a>
+                    <p><a href="#"><strong>Etablisement Trucmuche</strong></a></p>
+                </div>
+                <div class="container-connection">
+                <a href="login.html"><p> Deconnection</p></a>
+                </div>
+            </header>
+        </section>
+
+    <section class="partie-menu">
+        <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+        
+    <div class="wrapper">
+        <div class="sidebar">
+            <h2>Menu</h2>
+                <ul>
+                <h3><li>Insertion</li></h3>
+                    <ul>
+                        <li><a href="#ajout-achat">Achats</a></li>
+                        <li><a href="#ajout-article">Articles</a></li>
+                        <li><a href="#ajout-client">Clients</a></li>
+                    </ul>
+                <h3><li>Modification</li></h3>
+                <ul>
+                        <li><a href="#">Achats</a></li>
+                        <li><a href="#">Articles</a></li>
+                        <li><a href="#">Clients</a></li>\
+
+                </ul>
+            </ul> 
+    </div> 
+    </div>
+</section>
+
+
+<section class="formulaire" id="ajout-achat">
+    <div class="container-form">
+    <header>Ajout-achats</header>
+    <form action="#" class="form">
+      <div class="input-box">
+        <label>Code achat</label>
+        <input type="text" placeholder="id_achat" name="id_achat" required />
+      </div>
+
+      <div class="input-box">
+        <label>Code article</label>
+        <input type="text" placeholder="id_article" name="id_article" required />
+      </div>
+
+        <div class="input-box">
+          <label>Code client</label>
+          <input type="text" placeholder="id_client" name="id"id_client required />
+        </div>
+
+            <div class="input-box">
+              <label>Quantite</label>
+              <input type="number" placeholder="Quantite" name="quantite" required />
+            </div>
+
+            <div class="input-box">
+                <label>Date</label>
+                <input type="date" placeholder="date" name="date" required />
+              </div>
+
+            <button type="submit">Ajouter</button>
+            <button type="reset">Annuler</button>
+    </form>
+</div>
+    </section>
+    <section class="formulaire" id="ajout-article">
+        <div class="container-form">
+        <header>Ajout-article</header>
+        <form action="#" class="form">
+          <div class="input-box">
+            <label>Reference</label>
+            <input type="text" placeholder="reference" name="reference" required />
+          </div>
+    
+          <div class="input-box">
+            <label>Nom</label>
+            <input type="text" placeholder="nom" name="nom" required />
+          </div>
+    
+            <div class="input-box">
+              <label>Description</label>
+              <input type="text" placeholder="description" name="description" required />
+            </div>
+    
+                <div class="input-box">
+                  <label>Prix</label>
+                  <input type="number" placeholder="prix" name="prix" required />
+                </div>
+    
+                <button type="submit">Ajouter</button>
+                <button type="reset">Annuler</button>
+        </form>
+    </div>
+        </section>
+        <section class="formulaire" id="ajout-client">
+            <div class="container-form">
+            <header>Ajout-client</header>
+            <form action="#" class="form">
+              <div class="input-box">
+                <label>Numero</label>
+                <input type="number" placeholder="numero" name="numero" required />
+              </div>
+        
+              <div class="input-box">
+                <label>Nom</label>
+                <input type="text" placeholder="nom" name="nom" required />
+              </div>
+        
+                <div class="input-box">
+                  <label>Prenom</label>
+                  <input type="text" placeholder="prenom" name="prenom" required />
+                </div>
+        
+                    <div class="input-box">
+                      <label>Adresse</label>
+                      <input type="text" placeholder="adresse" name="adresse" required />
+                    </div>
+                    <div class="input-box">
+                        <label>Code postal</label>
+                        <input type="text" placeholder="code postal" name="code postal" required />
+                      </div>
+                      <div class="input-box">
+                        <label>Ville</label>
+                        <input type="text" placeholder="ville" name="ville" required />
+                      </div>
+                      <div class="input-box">
+                        <label>Pays</label>
+                        <input type="text" placeholder="pays" name="pays" required />
+                      </div>
+                      <div class="input-box">
+                        <label>Telephone</label>
+                        <input type="text" placeholder="telephone" name="telephone" required />
+                      </div>
+                    <button type="submit">Ajouter</button>
+                    <button type="reset">Annuler</button>
+            </form>
+        </div>
+            </section>
+<br>
+    <footer>
+        <div class="footer-content">
+            <h3>Etablissement trucmuche</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo iste corrupti doloribus odio sed!</p>
+            <div class="reseaux-sociaux">
+                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+               <li> <a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>copyright &copy;2023  designed by <span>COOKIE</span></p>
+        </div>
+    </footer>
+
+
+</body>
+</html>

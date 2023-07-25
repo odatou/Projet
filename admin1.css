@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.container-header{
+    background-color:blue;
+    box-shadow: 0 0 10px#5F9EA0;
+    height: 50px;
+}
+.nav{
+    width: 80%;
+    margin: auto;
+}
+.entete{
+    width: 80%;
+
+}
+.container-header-line > a{
+    text-decoration: none;
+    color:skyblue;
+    font-size: 1.5rem;
+    margin-left: 90px;
+    line-height: 50px;
+}
+
+.user-info{
+    float: right;
+    line-height: 50px;
+    letter-spacing: 1px;
+    
+}
+.user-info span{
+    color: white;
+}
+.type-user{
+    text-transform: uppercase;
+}
+.logoApp{
+    width: 90px;
+    height: auto;
+}
+.logout{
+    border: 1px solid white;
+    background-color:none;
+    border-radius: none!important;
+
+    font-size: 18px;
+    color:white;
+    padding: 5px 3px;
+}
+
+.container-connection{
+    float: right;
+    margin-top: -50px;
+    border:blue;
+    border-radius: 5px;
+}
+.container-connection p a{
+  text-decoration: none;
+  outline: 0;
+  cursor: pointer;
+}
+.container-connection p{
+    font-size: 1rem;
+    padding: 5px 10px;
+    font-weight: 300px;
+}
+.container-connection:hover{
+    background-color:blue;
+    color: #0000FF;
+}
+.menu
+{
+float:left;
+width: 200px;
+padding-left: 30px;
+padding: 10px;
+background-color: #0000FF;
+}
+.menu a
+{
+float: left;
+width: 100%;
+text-decoration: none;
+color:black;
+display: flex;
+
+
+}
+.admin-container
+{
+float: left;
+width: calc(100% - 200px);
+}
+.formulaire
+{
+float: left;
+width: 400px;
+margin-left: calc(50% - 200px);
+background-color:whitesmoke;
+}
+.form-group
+{
+float: left;
+width: 100%;
+margin-top: 15px;
+}
+
+.thead-dark{
+    background-color:skyblue;
+ 
+
+}
+.table{
+    padding: 20px;
+    padding-bottom: 10px;
+    padding-top:30px;
+    padding-block: 10px;
+}
+.button btn btn-primary{
+    background-color: aquamarine;
+}
+.menue a{
+   
+}

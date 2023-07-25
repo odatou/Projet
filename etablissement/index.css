@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+h1{
+    padding-bottom: 6rem;
+    color:#e91e63 ;
+    font-size: 30px;
+    text-decoration: double underline 5px;
+}
+/* coprs de la page*/
+.container-body{
+    min-height: 100vh;
+    background: url("hero-bg.png");
+    background-size: cover; 
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 1.5;
+    background-color:rgba(9, 159, 164, 0.5);
+}
+.container-body p{
+    padding: .5rem;
+}
+button{
+    background: none;
+    font-size: 1rem;
+    cursor: pointer;
+    border:none;
+}
+.container-body h3{
+    padding-bottom: 1rem ;
+    padding-top: 2rem;
+}
+
+button a{
+    text-decoration: none;
+    color: #e91e63;
+}
+button a:hover{
+    background-color:#03a9f4 ;
+}
